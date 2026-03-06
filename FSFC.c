@@ -1,12 +1,12 @@
 #include <stdio.h>
 struct Process {
-    int pid;        // Process ID
-    int at;         // Arrival Time
-    int bt;         // Burst Time
-    int ct;         // Completion Time
-    int tat;        // Turnaround Time
-    int wt;         // Waiting Time
-    int rt;         // Response Time
+    int pid;       
+    int at;         
+    int bt;         
+    int ct;        
+    int tat;      
+    int wt;         
+    int rt;         
 };
 int main() {
     int n = 4;
@@ -48,3 +48,4 @@ int main() {
 
     return 0;
 }
+
